@@ -21,7 +21,7 @@ function Card({data, reference}) {
         </div>
         {data.tag.isOpen && (
           <div className={`tag w-full py-4 flex bg-${data.tag.tagColor}-600 items-center justify-center`}>
-            <h3 className="text-sm font-semibold ">{data.tag.tagTitle}</h3>
+            <h3 className="text-sm font-semibold hover:cursor-pointer">{data.tag.tagTitle}</h3>
           </div>
         )}
       </div>
